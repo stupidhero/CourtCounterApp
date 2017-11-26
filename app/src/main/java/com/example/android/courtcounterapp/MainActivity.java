@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /* function called onClick of the corresponding button*/
-    
+
     public void goals_team_A(View v) {
         goalA += 1;
         displayGoalA(goalA);
