@@ -8,7 +8,10 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
 
+
     static final String storedValues = "ScoreValues";
+
+    /* Save the values on orientation change */
     int yellowA = 0, yellowB = 0, redA = 0, redB = 0, goalA = 0, goalB = 0, penaltyA = 0, penaltyB = 0;
 
     @Override
@@ -45,6 +48,8 @@ public class MainActivity extends AppCompatActivity {
         int[] temp = {yellowA, yellowB, redA, redB, goalA, goalB, penaltyA, penaltyB};
         outState.putIntArray(storedValues, temp);
     }
+
+    /*  Display function for the invidivual values*/
 
     private void displayScoreA(int number) {
         TextView quantityTextView = (TextView) findViewById(R.id.score_team_A);
@@ -96,6 +101,8 @@ public class MainActivity extends AppCompatActivity {
         quantityTextView.setText("" + number);
     }
 
+    /* function called onClick of the corresponding button*/
+    
     public void goals_team_A(View v) {
         goalA += 1;
         displayGoalA(goalA);
