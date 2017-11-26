@@ -24,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/goals0"
-            android:textColor="#000000"
+            android:textColor="@color/scoreBlack"
             android:textSize="80sp"
             android:textStyle="bold" />
 
@@ -34,7 +34,7 @@
             android:layout_marginLeft="102dp"
             android:layout_marginStart="102dp"
             android:text="@string/vs"
-            android:textColor="#000000"
+            android:textColor="@color/scoreBlack"
             android:textSize="42sp" />
 
 
@@ -45,7 +45,7 @@
             android:layout_marginLeft="102dp"
             android:layout_marginStart="102dp"
             android:text="@string/goals0"
-            android:textColor="#000000"
+            android:textColor="@color/scoreBlack"
             android:textSize="80sp"
             android:textStyle="bold" />
 
@@ -57,7 +57,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/score"
-        android:layout_centerHorizontal="true">
+        android:layout_centerInParent="true">
 
 
         <LinearLayout
@@ -72,7 +72,7 @@
                 android:layout_gravity="center_horizontal"
                 android:fontFamily="sans-serif-medium"
                 android:text="@string/teamA"
-                android:textColor="#263238"
+                android:textColor="@color/scoreText"
                 android:textSize="36sp"
                 android:textStyle="bold|italic" />
 
@@ -86,7 +86,7 @@
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:backgroundTint="#00E676"
+                        android:backgroundTint="@color/greenGoal"
                         android:minHeight="0dp"
                         android:onClick="goals_team_A"
                         android:text="@string/goal"
@@ -100,7 +100,7 @@
                         android:layout_marginLeft="6dp"
                         android:layout_marginStart="6dp"
                         android:text="@string/goals0"
-                        android:textColor="#263238"
+                        android:textColor="@color/scoreText"
                         android:textSize="24sp"
                         android:textStyle="bold" />
 
@@ -109,7 +109,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="24dp"
                         android:layout_marginStart="24dp"
-                        android:backgroundTint="#00E5FF"
+                        android:backgroundTint="@color/bluePenalty"
                         android:minHeight="0dp"
                         android:onClick="penalty_team_A"
                         android:text="@string/penalty"
@@ -123,7 +123,7 @@
                         android:layout_marginLeft="6dp"
                         android:layout_marginStart="6dp"
                         android:text="@string/goals0"
-                        android:textColor="#263238"
+                        android:textColor="@color/scoreText"
                         android:textSize="24sp"
                         android:textStyle="bold" />
 
@@ -134,7 +134,7 @@
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:backgroundTint="#FFFF00"
+                        android:backgroundTint="@color/yellowCard"
                         android:minHeight="0dp"
                         android:onClick="yellow_A"
                         android:text="@string/yellow"
@@ -148,7 +148,7 @@
                         android:layout_marginLeft="6dp"
                         android:layout_marginStart="6dp"
                         android:text="@string/goals0"
-                        android:textColor="#263238"
+                        android:textColor="@color/scoreText"
                         android:textSize="24sp"
                         android:textStyle="bold" />
 
@@ -157,7 +157,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="24dp"
                         android:layout_marginStart="24dp"
-                        android:backgroundTint="#F44336"
+                        android:backgroundTint="@color/redCard"
                         android:minHeight="0dp"
                         android:onClick="red_A"
                         android:text="@string/red"
@@ -171,7 +171,7 @@
                         android:layout_marginLeft="6dp"
                         android:layout_marginStart="6dp"
                         android:text="@string/goals0"
-                        android:textColor="#263238"
+                        android:textColor="@color/scoreText"
                         android:textSize="24sp"
                         android:textStyle="bold" />
 
@@ -198,7 +198,7 @@
                 android:layout_gravity="center_horizontal"
                 android:fontFamily="sans-serif-medium"
                 android:text="@string/teamB"
-                android:textColor="#263238"
+                android:textColor="@color/scoreText"
                 android:textSize="36sp"
                 android:textStyle="bold|italic" />
 
@@ -212,7 +212,7 @@
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:backgroundTint="#00E676"
+                        android:backgroundTint="@color/greenGoal"
                         android:minHeight="0dp"
                         android:onClick="goals_team_B"
                         android:text="@string/goal"
@@ -226,7 +226,7 @@
                         android:layout_marginLeft="6dp"
                         android:layout_marginStart="6dp"
                         android:text="@string/goals0"
-                        android:textColor="#263238"
+                        android:textColor="@color/scoreText"
                         android:textSize="24sp"
                         android:textStyle="bold" />
 
@@ -235,7 +235,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="24dp"
                         android:layout_marginStart="24dp"
-                        android:backgroundTint="#00E5FF"
+                        android:backgroundTint="@color/bluePenalty"
                         android:minHeight="0dp"
                         android:onClick="penalty_team_B"
                         android:text="@string/penalty"
@@ -249,7 +249,7 @@
                         android:layout_marginLeft="6dp"
                         android:layout_marginStart="6dp"
                         android:text="@string/goals0"
-                        android:textColor="#263238"
+                        android:textColor="@color/scoreText"
                         android:textSize="24sp"
                         android:textStyle="bold" />
 
@@ -260,7 +260,7 @@
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:backgroundTint="#FFFF00"
+                        android:backgroundTint="@color/yellowCard"
                         android:minHeight="0dp"
                         android:onClick="yellow_B"
                         android:text="@string/yellow"
@@ -274,7 +274,7 @@
                         android:layout_marginLeft="6dp"
                         android:layout_marginStart="6dp"
                         android:text="@string/goals0"
-                        android:textColor="#263238"
+                        android:textColor="@color/scoreText"
                         android:textSize="24sp"
                         android:textStyle="bold" />
 
@@ -283,7 +283,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="24dp"
                         android:layout_marginStart="24dp"
-                        android:backgroundTint="#F44336"
+                        android:backgroundTint="@color/redCard"
                         android:minHeight="0dp"
                         android:onClick="red_B"
                         android:text="@string/red"
@@ -297,7 +297,7 @@
                         android:layout_marginLeft="6dp"
                         android:layout_marginStart="6dp"
                         android:text="@string/goals0"
-                        android:textColor="#263238"
+                        android:textColor="@color/scoreText"
                         android:textSize="24sp"
                         android:textStyle="bold" />
 
@@ -317,7 +317,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
-        android:backgroundTint="#37474F"
+        android:backgroundTint="@color/resetGrey"
         android:onClick="resetScore"
         android:text="@string/reset" />
 

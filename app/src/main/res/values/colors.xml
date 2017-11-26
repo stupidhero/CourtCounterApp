@@ -3,4 +3,11 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="scoreText">#263238</color>
+    <color name="greenGoal">#00E676</color>
+    <color name="bluePenalty">#00E5FF</color>
+    <color name="yellowCard">#FFFF00</color>
+    <color name="redCard">#F44336</color>
+    <color name="scoreBlack">#000000</color>
+    <color name="resetGrey">#37474F</color>
 </resources>
