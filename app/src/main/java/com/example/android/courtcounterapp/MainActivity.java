@@ -8,7 +8,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
 
-    int yellowA=0,  yellowB =  0, redA = 0 , redB = 0 , goalA=0 , goalB = 0 , penaltyA = 0 , penaltyB = 0;
+    int yellowA = 0, yellowB = 0, redA = 0, redB = 0, goalA = 0, goalB = 0, penaltyA = 0, penaltyB = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,10 +39,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onSaveInstanceState (Bundle outState) {
+    protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        int[] temp = { yellowA, yellowB, redA, redB, goalA, goalB, penaltyA, penaltyB};
-        outState.putIntArray ("myValues", temp);
+        int[] temp = {yellowA, yellowB, redA, redB, goalA, goalB, penaltyA, penaltyB};
+        outState.putIntArray("myValues", temp);
     }
 
     private void displayScoreA(int number) {
@@ -140,7 +140,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void resetScore(View v) {
-        redA= redB= yellowA= yellowB= penaltyA= penaltyB= goalA= goalB = 0;
+        redA = redB = yellowA = yellowB = penaltyA = penaltyB = goalA = goalB = 0;
         displayPenaltyA(0);
         displayYellowA(0);
         displayGoalA(0);
